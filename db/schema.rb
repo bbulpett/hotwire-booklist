@@ -10,13 +10,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_09_17_023037) do
-  create_table "books", force: :cascade do |t|
-    t.string "title"
-    t.text "description"
-    t.integer "likes", default: 0
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+ActiveRecord::Schema[7.0].define(version: 20_220_917_023_037) do
+  create_table 'books', force: :cascade do |t|
+    t.string 'title'
+    t.text 'description'
+    t.integer 'likes', default: 0
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
   end
-
 end

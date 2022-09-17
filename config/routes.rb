@@ -5,6 +5,6 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   root 'books#index'
-  
+
   resources :books
 end
